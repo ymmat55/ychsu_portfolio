@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default function About() {
   return (
@@ -11,6 +12,9 @@ export default function About() {
           institute and news publishing houses. Enjoys collaborating with all
           levels to gather information, solve problems and make impact.
         </h5>
+        <p>
+          Need a developer?<Link to="/contact">Contact me.</Link>
+        </p>
       </div>
     </div>
   )
