@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Footer from "../components/footer"
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <p>
         Need a developer?<Link to="/contact">Contact me.</Link>
       </p>
+      <Footer />
     </div>
   )
 }

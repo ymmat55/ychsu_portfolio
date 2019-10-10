@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Footer from "../components/footer"
 
 export default function About() {
   return (
@@ -16,6 +17,7 @@ export default function About() {
           Need a developer?<Link to="/contact">Contact me.</Link>
         </p>
       </div>
+      <Footer />
     </div>
   )
 }
