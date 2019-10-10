@@ -15,6 +15,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gatsby": "^2.15.34",
+    "gatsby-plugin-sass": "^2.1.18",
+    "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2"
