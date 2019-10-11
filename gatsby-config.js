@@ -11,6 +11,7 @@ module.exports = {
     email: "ymmat55@gmail.com",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
       resolve: "gatsby-source-filesystem",
@@ -20,6 +21,18 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/YC.png`,
+      },
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
